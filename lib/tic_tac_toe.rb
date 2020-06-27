@@ -114,8 +114,10 @@ class TicTacToe
   else
     if @board[i[0]] == "X"
       return "X"
-    else
+    elsif @board[i[0]] == "O"
       return "O"
+    else
+      nil
      end 
     end
   end
