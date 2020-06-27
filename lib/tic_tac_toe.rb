@@ -116,6 +116,7 @@ class TicTacToe
       return "X"
     else
       return "O"
+     end 
     end
   end
   
